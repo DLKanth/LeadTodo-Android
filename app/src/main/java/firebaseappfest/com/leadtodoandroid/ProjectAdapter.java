@@ -45,6 +45,10 @@ public class ProjectAdapter extends RecyclerView.Adapter<ProjectAdapter.ProjectI
         notifyDataSetChanged();
     }
 
+    public Projects getProject(int pos) {
+        return list.get(pos);
+    }
+
     public class ProjectItemViewHolder extends RecyclerView.ViewHolder {
         TextView title;
         TextView createdBy;

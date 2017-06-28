@@ -16,11 +16,21 @@ public class MainPresenter {
 
     void getProjects() {
         List<Projects> projectsList = new ArrayList<>();
-        projectsList.add(new Projects("Project 1", "Anon"));
-        projectsList.add(new Projects("Project 2", "shubankar"));
-        projectsList.add(new Projects("Project 3", "hitesh"));
-        projectsList.add(new Projects("Project 4", "mani"));
-        projectsList.add(new Projects("Project 5", "Gaurav"));
+        projectsList.add(new Projects("Project 1", "Anon", "12"));
+        projectsList.add(new Projects("Project 2", "shubankar", "13"));
+        projectsList.add(new Projects("Project 3", "hitesh", "14"));
+        projectsList.add(new Projects("Project 4", "mani", "15"));
+        projectsList.add(new Projects("Project 5", "Gaurav", "16"));
+        projectsList.add(new Projects("Project 1", "Anon", "12"));
+        projectsList.add(new Projects("Project 2", "shubankar", "13"));
+        projectsList.add(new Projects("Project 3", "hitesh", "14"));
+        projectsList.add(new Projects("Project 4", "mani", "15"));
+        projectsList.add(new Projects("Project 5", "Gaurav", "16"));
+        projectsList.add(new Projects("Project 1", "Anon", "12"));
+        projectsList.add(new Projects("Project 2", "shubankar", "13"));
+        projectsList.add(new Projects("Project 3", "hitesh", "14"));
+        projectsList.add(new Projects("Project 4", "mani", "15"));
+        projectsList.add(new Projects("Project 5", "Gaurav", "16"));
         viewInterface.updateUI(projectsList);
     }
 }

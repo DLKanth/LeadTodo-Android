@@ -7,10 +7,12 @@ package firebaseappfest.com.leadtodoandroid;
 public class Projects {
     public String title;
     public String createdBy;
+    public String id;
 
-    public Projects(String title, String createdBy) {
+    public Projects(String title, String createdBy, String id) {
         this.title = title;
         this.createdBy = createdBy;
+        this.id = id;
     }
 
     public String getTitle() {
@@ -27,5 +29,13 @@ public class Projects {
 
     public void setCreatedBy(String createdBy) {
         this.createdBy = createdBy;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 }
